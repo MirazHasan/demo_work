@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+
+#header_part{
+    width: 1200px;
+    margin: auto;
+    height: 600px;
+    background-image: url(personal-website/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.2px solid white;
+}
+.container_header{
+    width: 1200px;
+    height: 500px;
+    
+}
+.row_header{
+    width: 100%;
+    margin-top: 60px;
+}
+/* left div css start*/
+.left_div{
+    width: 50%;
+    float: left;
+}
+.margin{
+    margin: 90px;
+}
+.hello{
+    
+    font-family: 'Source Sans Pro' ;
+}
+.margin h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: #FB3DD0 ;
+    font-family: 'Source Sans Pro' ;
+}
+.margin p{
+    padding-top: 50px;
+    font-family: 'Source Sans Pro' ;
+    font-family: 'Lato' ;
+    padding-bottom: 40px;
+}
+.margin a{
+    font-size: 24px;
+    padding: 5px;
+    background-image: linear-gradient( 45deg, #E67E22 ,  #F4D03F  );
+    border-radius: 5px;
+    font-family: 'Source Sans Pro' ;
+}
+.margin a:visited{
+    color: white ;
+}
+/*right div css start*/
+.right_div{
+    width: 50%;
+    float: left;
+}
+.margin_2{
+    margin: 70px;
+}
+.right_div img{
+    
+    width: 400px;
+    float: right;
+}
+/* info css start*/
+#info{
+    width: 1200px;
+    margin: auto;
+    height: 600px;
+    background-image: url(personal-website/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.container_info{
+    width: 1050px;
+    height: 600px;
+    margin: auto;
+}
+.row_info{
+    width: 100%;
+    padding-top: 80px;
+}
+.left_info{
+    width: 45%;
+    float: left;
+}
+.margin_info_1  img{
+    width: 400px;
+}
+.right_info{
+    width: 50%;
+    float: left;
+    display: inline-block;
+
+}
+.margin_info_2{
+    margin-top: 60px;
+    float: right;
+}
+.margin_info_2 h1{
+    font-family: 'Source Sans Pro' ;
+    padding-bottom: 50px;
+}
+.margin_info_2 p{
+    font-family: 'Source Sans Pro' ;
+    font-family: 'Lato' ;
+    padding-bottom: 50px;
+}
+.margin_info_2 a{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 29px;
+    padding-right: 29px;
+    background-image: linear-gradient( 45deg, #E67E22 ,  #F4D03F  );
+    border-radius: 5px;
+    font-family: 'Source Sans Pro' ;
+    font-size: 26px;
+}
+.margin_info_2 a:visited{
+    color: white ;
+}
+/* work_part css start*/
+#work_part{
+    width: 1200px;
+    margin: auto;
+    height: 600px;
+    background-image: url(personal-website/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.container_work{
+    width: 1050px;
+    height: 600px;
+    margin: auto;
+}
+.{
+    width: 100%;
+    padding-top: 80px;
+}
+.row_work h1{
+    text-align: center;
+    font-family: 'Source Sans Pro' ;
+    font-size: 40px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+/* work img_1 css start*/
+.img_1{
+    width: 32%;
+    float: left;
+}
+.img_1 img{
+    width: 320px;
+}
+/* work img_2 css start*/
+.img_2{
+    width: 32%;
+    float: left;
+}
+.img_2 img{
+    width: 320px;;
+    padding-left: 10px;
+}
+/* work img_3 css start*/
+.img_3{
+    width: 32%;
+    float: left;
+}
+.img_3 img{
+    width: 320px;
+    padding-left: 10px;
+}
+/* footer css start*/
+#footer{
+    width: 1200px;
+    margin: auto;
+    height: 600px;
+    background-image: url(personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.container_footer{
+    width: 1050px;
+    height: 600px;
+    margin: auto;
+
+}
+.sub_footer_container{
+    width: 400px;
+    height: 380px;
+    margin: auto;
+}
+.row_footer h1{
+    text-align: center;
+    font-family: 'Source Sans Pro' ;
+    font-size: 40px;
+    padding-top: 40px;
+}
+.row_footer h4{
+    font-family: 'Source Sans Pro' ;
+    text-align: center;
+    padding-top: 100px;
+}
+.row_footer h5{
+    font-family: 'Source Sans Pro' ;
+    text-align: center;
+    color: #A6ACAF;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.row_footer p{
+    font-family: 'Source Sans Pro' ;
+    text-align: center;
+    padding-top: 20px;
+}
+.email{
+    width: 570px;
+    height: 150px;
+    background-color: rosybrown;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, #FE0A5F, #FE0ADC );
+}
+.email p{
+    padding-top: 40px;  
+    font-family: 'Source Sans Pro' ;
+    font-family: 'Lato' ;
+    padding-bottom: 10px;
+}
+.email a{
+    font-size: 25px;
+    font-family: 'Source Sans Pro' ;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
